@@ -61,7 +61,7 @@ parallax-website(folder)
 
 ## Screenshot
 <p align="center">
-<a href="https://bavi-boop.github.io/SASS-website-layout/"><img src="sass.PNG" alt="screenshot" width="500px"></a>
+<a href="https://bavi-boop.github.io/SASS-website-layout/"><img src="sass.PNG" alt="screenshot" width="700px" height="600px"></a>
 </p>
 
 
