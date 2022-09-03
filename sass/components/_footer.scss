@@ -1,0 +1,19 @@
+// FOOTER
+@use "./../abstracts/variables" as *;
+
+$textColor: rgb(255, 255, 255),rgb(189, 197, 68), rgb(45, 112, 156), orange, rgb(223, 89, 111);
+footer {
+  .social-icons {
+    display: flex;
+    height: 10rem;
+  }
+
+  @for $i from 1 through 5 {
+    .social#{$i}{
+        width: 20%;
+        background-color: lighten(rgba(255, 0, 0, 0.582), $i * 6);
+        font-size: $i * 1.2rem;
+        color: nth($textColor, $i);
+    }
+  }
+}

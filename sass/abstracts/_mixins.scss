@@ -1,0 +1,10 @@
+@use "./variables" as *;
+
+@mixin myBox($bgColor, $fontColor) {
+    background-color: $bgColor;
+    color: $fontColor;
+    width: 25%;
+    height: 15rem;
+    border: $myBorder;
+    border-radius: 5px;
+  }

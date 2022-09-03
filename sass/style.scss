@@ -1,0 +1,11 @@
+@use "./base/reset";
+@use "./abstracts/variables";
+
+@use "./components/index" as *;
+
+body {
+  font-family: variables.$fontFamily;
+  background-color: variables.$bgColor;
+  font-size: variables.$fontSize;
+  color: variables.$fontColor;
+}

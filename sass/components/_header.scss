@@ -1,0 +1,30 @@
+
+@use "./../abstracts/variables" as *;
+// HEADER
+header {
+    background-color: $navBgColor;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    img {
+      width: "80px";
+    }
+    ul {
+      list-style-type: none;
+      li {
+        display: inline-block;
+        padding: 0.5rem;
+        transition: text-decoration 2s;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    a {
+      color: $fontColor;
+      text-decoration: none;
+    }
+  }
+  
+  // BANNER
+  
